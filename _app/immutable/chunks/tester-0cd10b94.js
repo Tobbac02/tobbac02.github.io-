@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="../favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-8003c18b.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-da0306f3.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-9dc624fe.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-086c851b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-cb020725.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/devblog/_path_/_page.svelte-74c9050a.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/devblog/_path_/_page.js-c08b8194.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-4e1d1924.js"><!-- HEAD_svelte-1lc4dl3_START --><link rel="stylesheet" href="/pico.min.css"><style>nav {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-  </style><!-- HEAD_svelte-1lc4dl3_END -->
-	</head>
-	<body>
-		<div style="display: contents">
-
-
-
-
-<nav><ul><li><a href="/">Hem</a></li>
-    <li><a href="/devblog">Blog</a></li>
-    <li><a href="/erdettamoeligt">Klicker</a></li>
-    <li><a href="/etttilltest">testa</a></li></ul></nav>
-
-<main class="container-fluid"><hr>
-
-  <main class="container">
-
-
-<article><h1>Onsdag</h1>
-  <p>Published: 2023-1-25</p>
-  <p>Idag har jag gjort ett en ny sida där jag testade några olika html taggar som exempelvis “img” och olika forms som input och label. Jag försökte även strukturera koden efter ett sätt som jag hittade att man skulle göra på internet. Med internal CSS och js inom html taggarna head. Sedan den mesta delen av html mellan html tagggarna body.  </p>
-<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token constant">DOCTYPE</span> html<span class="token operator">></span>
+import{S as d,i as h,s as f,k as c,q as b,a as y,l as k,m as i,r as _,h as o,c as v,n as j,b as r,E as x,B as l}from"./index-9dc624fe.js";function S(m){let s,e,p,n,g=`<code class="language-js"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token constant">DOCTYPE</span> html<span class="token operator">></span>
 
 <span class="token operator">&lt;</span>html lang<span class="token operator">=</span><span class="token string">"en"</span><span class="token operator">></span>
 <span class="token operator">&lt;</span>head<span class="token operator">></span>
@@ -73,24 +31,4 @@
 
 
 <span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">></span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">></span></code><!-- HTML_TAG_END --></pre></article></main></main>
-
-
-		<script type="module" data-sveltekit-hydrate="1h23xrn">
-			import { start } from "../_app/immutable/start-da0306f3.js";
-
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1h23xrn"]').parentNode,
-				version: "1674816756511",
-				hydrate: {
-					node_ids: [0, 4],
-					data: [null,null],
-					form: null
-				}
-			});
-		</script>
-	</div>
-	</body>
-</html>
+<span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">></span></code>`;return{c(){s=c("p"),e=b("Idag har jag gjort ett en ny sida där jag testade några olika html taggar som exempelvis “img” och olika forms som input och label. Jag försökte även strukturera koden efter ett sätt som jag hittade att man skulle göra på internet. Med internal CSS och js inom html taggarna head. Sedan den mesta delen av html mellan html tagggarna body."),p=y(),n=c("pre"),this.h()},l(a){s=k(a,"P",{});var t=i(s);e=_(t,"Idag har jag gjort ett en ny sida där jag testade några olika html taggar som exempelvis “img” och olika forms som input och label. Jag försökte även strukturera koden efter ett sätt som jag hittade att man skulle göra på internet. Med internal CSS och js inom html taggarna head. Sedan den mesta delen av html mellan html tagggarna body."),t.forEach(o),p=v(a),n=k(a,"PRE",{class:!0});var u=i(n);u.forEach(o),this.h()},h(){j(n,"class","language-js")},m(a,t){r(a,s,t),x(s,e),r(a,p,t),r(a,n,t),n.innerHTML=g},p:l,i:l,o:l,d(a){a&&o(s),a&&o(p),a&&o(n)}}}const w={title:"Onsdag",date:"2023-1-25"};class E extends d{constructor(s){super(),h(this,s,null,S,f,{})}}export{E as default,w as metadata};

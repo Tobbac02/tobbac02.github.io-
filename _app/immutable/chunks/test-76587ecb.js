@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="../favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-8003c18b.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-da0306f3.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-9dc624fe.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-086c851b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-cb020725.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/devblog/_path_/_page.svelte-74c9050a.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/devblog/_path_/_page.js-c08b8194.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-4e1d1924.js"><!-- HEAD_svelte-1lc4dl3_START --><link rel="stylesheet" href="/pico.min.css"><style>nav {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-  </style><!-- HEAD_svelte-1lc4dl3_END -->
-	</head>
-	<body>
-		<div style="display: contents">
-
-
-
-
-<nav><ul><li><a href="/">Hem</a></li>
-    <li><a href="/devblog">Blog</a></li>
-    <li><a href="/erdettamoeligt">Klicker</a></li>
-    <li><a href="/etttilltest">testa</a></li></ul></nav>
-
-<main class="container-fluid"><hr>
-
-  <main class="container">
-
-
-<article><h1>Tisdag</h1>
-  <p>Published: 2023-01-24</p>
-  <p>Jag har ändrat namnet på “dubbler” till “multiplier” då jag ändrade den från att gångra klickvärdet med 2 till 1.1.</p>
-<p>Jag har sedan bytt namn på variabeln multiplier till multiplierworking(senare lektion ändrade jag till clickAdder) då multiplier är mycket likt variabeln multiplier i dictionariet upgrades och de har olika syften. Variabeln multiplier är sifran som antalet totala klicks ökar med. Medans variabeln upgrade i dictionariet upgrades är förändringsfaktorn som variabeln clickAdder ökar med. </p>
-<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token keyword">function</span> <span class="token function">increment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+import{S as R,i as S,s as B,k as i,q as y,a as d,l as k,m as u,r as j,h as n,c as _,n as T,b as t,E as w,B as x}from"./index-9dc624fe.js";function C(q){let p,h,m,l,A,f,e,H=`<code class="language-js"><span class="token keyword">function</span> <span class="token function">increment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     clicks <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">round</span><span class="token punctuation">(</span>clicks <span class="token operator">+</span> clickAdder<span class="token punctuation">)</span><span class="token punctuation">;</span>
     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"click"</span> <span class="token operator">+</span> clicks<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
@@ -51,10 +8,7 @@ _____________________________________________________________________
         <span class="token keyword">if</span> <span class="token punctuation">(</span>upgrade<span class="token punctuation">.</span>multiplier<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
         clickAdder <span class="token operator">=</span> clickAdder <span class="token operator">*</span> upgrade<span class="token punctuation">.</span>multiplier<span class="token punctuation">;</span>
         clicks <span class="token operator">-=</span> upgrade<span class="token punctuation">.</span>cost<span class="token punctuation">;</span>
-        <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<p>Jag hjälpte sedan Anton och Alfons att få två olika bilder på deras multiplier och worker knappar. Vi använde då deras namn från dictionariet. Vi använde det namnen för att skapa separata id för att göra css.</p>
-<p>jag gjorde sedan en ny sida för att testa göra ett nytt spel. Jag satt in en knapp och gjorde så att att värde som började på 1 dubblades varje gång jag klickade på knappen. Om värdet överstrider 1000 så leder knappen istället till en musik video.</p>
-<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token operator">&lt;</span>script<span class="token operator">></span>
+        <span class="token punctuation">&#125;</span></code>`,g,r,E,v,c,J,b,o,L=`<code class="language-js"><span class="token operator">&lt;</span>script<span class="token operator">></span>
     <span class="token keyword">let</span> alfons <span class="token operator">=</span> <span class="token number">1</span>
 
 <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
@@ -84,24 +38,4 @@ _____________________________________________________________________
         background<span class="token operator">-</span>color<span class="token operator">:</span> green<span class="token punctuation">;</span>
     <span class="token punctuation">&#125;</span>
 
-<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">></span>   </code><!-- HTML_TAG_END --></pre></article></main></main>
-
-
-		<script type="module" data-sveltekit-hydrate="1f4bzvk">
-			import { start } from "../_app/immutable/start-da0306f3.js";
-
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1f4bzvk"]').parentNode,
-				version: "1674816756511",
-				hydrate: {
-					node_ids: [0, 4],
-					data: [null,null],
-					form: null
-				}
-			});
-		</script>
-	</div>
-	</body>
-</html>
+<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">></span>   </code>`;return{c(){p=i("p"),h=y("Jag har ändrat namnet på “dubbler” till “multiplier” då jag ändrade den från att gångra klickvärdet med 2 till 1.1."),m=d(),l=i("p"),A=y("Jag har sedan bytt namn på variabeln multiplier till multiplierworking(senare lektion ändrade jag till clickAdder) då multiplier är mycket likt variabeln multiplier i dictionariet upgrades och de har olika syften. Variabeln multiplier är sifran som antalet totala klicks ökar med. Medans variabeln upgrade i dictionariet upgrades är förändringsfaktorn som variabeln clickAdder ökar med."),f=d(),e=i("pre"),g=d(),r=i("p"),E=y("Jag hjälpte sedan Anton och Alfons att få två olika bilder på deras multiplier och worker knappar. Vi använde då deras namn från dictionariet. Vi använde det namnen för att skapa separata id för att göra css."),v=d(),c=i("p"),J=y("jag gjorde sedan en ny sida för att testa göra ett nytt spel. Jag satt in en knapp och gjorde så att att värde som började på 1 dubblades varje gång jag klickade på knappen. Om värdet överstrider 1000 så leder knappen istället till en musik video."),b=d(),o=i("pre"),this.h()},l(a){p=k(a,"P",{});var s=u(p);h=j(s,"Jag har ändrat namnet på “dubbler” till “multiplier” då jag ändrade den från att gångra klickvärdet med 2 till 1.1."),s.forEach(n),m=_(a),l=k(a,"P",{});var P=u(l);A=j(P,"Jag har sedan bytt namn på variabeln multiplier till multiplierworking(senare lektion ändrade jag till clickAdder) då multiplier är mycket likt variabeln multiplier i dictionariet upgrades och de har olika syften. Variabeln multiplier är sifran som antalet totala klicks ökar med. Medans variabeln upgrade i dictionariet upgrades är förändringsfaktorn som variabeln clickAdder ökar med."),P.forEach(n),f=_(a),e=k(a,"PRE",{class:!0});var O=u(e);O.forEach(n),g=_(a),r=k(a,"P",{});var V=u(r);E=j(V,"Jag hjälpte sedan Anton och Alfons att få två olika bilder på deras multiplier och worker knappar. Vi använde då deras namn från dictionariet. Vi använde det namnen för att skapa separata id för att göra css."),V.forEach(n),v=_(a),c=k(a,"P",{});var M=u(c);J=j(M,"jag gjorde sedan en ny sida för att testa göra ett nytt spel. Jag satt in en knapp och gjorde så att att värde som började på 1 dubblades varje gång jag klickade på knappen. Om värdet överstrider 1000 så leder knappen istället till en musik video."),M.forEach(n),b=_(a),o=k(a,"PRE",{class:!0});var Q=u(o);Q.forEach(n),this.h()},h(){T(e,"class","language-js"),T(o,"class","language-js")},m(a,s){t(a,p,s),w(p,h),t(a,m,s),t(a,l,s),w(l,A),t(a,f,s),t(a,e,s),e.innerHTML=H,t(a,g,s),t(a,r,s),w(r,E),t(a,v,s),t(a,c,s),w(c,J),t(a,b,s),t(a,o,s),o.innerHTML=L},p:x,i:x,o:x,d(a){a&&n(p),a&&n(m),a&&n(l),a&&n(f),a&&n(e),a&&n(g),a&&n(r),a&&n(v),a&&n(c),a&&n(b),a&&n(o)}}}const X={title:"Tisdag",date:"2023-01-24"};class z extends R{constructor(p){super(),S(this,p,null,C,B,{})}}export{z as default,X as metadata};
