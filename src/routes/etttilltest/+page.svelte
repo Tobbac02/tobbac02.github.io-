@@ -1,11 +1,3 @@
----
-title: Onsdag
-date: "2023-1-25"
----
-
-Idag har jag gjort ett en ny sida där jag testade några olika html taggar som exempelvis "img" och olika forms som input och label. Jag försökte även strukturera koden efter ett sätt som jag hittade att man skulle göra på internet. Med internal CSS och js inom html taggarna head. Sedan den mesta delen av html mellan html tagggarna body.  
-
-```js
 <!DOCTYPE html>
 
 <html lang="en">
@@ -40,4 +32,4 @@ Idag har jag gjort ett en ny sida där jag testade några olika html taggar som 
 
 </body>
 </html>
-```
+

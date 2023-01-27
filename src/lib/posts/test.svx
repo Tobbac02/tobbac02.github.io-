@@ -1,17 +1,59 @@
 ---
-title: Post three
-date: "2022-11-30"
+title: Tisdag
+date: "2023-01-24"
 ---
 
-<h1>Tjena</h1>
+Jag har ändrat namnet på "dubbler" till "multiplier" då jag ändrade den från att gångra klickvärdet med 2 till 1.1.
 
+Jag har sedan bytt namn på variabeln multiplier till multiplierworking(senare lektion ändrade jag till clickAdder) då multiplier är mycket likt variabeln multiplier i dictionariet upgrades och de har olika syften. Variabeln multiplier är sifran som antalet totala klicks ökar med. Medans variabeln upgrade i dictionariet upgrades är förändringsfaktorn som variabeln clickAdder ökar med. 
+```JS
+function increment() {
+    clicks = Math.round(clicks + clickAdder);
+    console.log("click" + clicks);
 
+_____________________________________________________________________
+ on:click={() => {
+    if (clicks >= upgrade.cost) {
+        if (upgrade.multiplier) {
+        clickAdder = clickAdder * upgrade.multiplier;
+        clicks -= upgrade.cost;
+        }
+```
 
-# you
+Jag hjälpte sedan Anton och Alfons att få två olika bilder på deras multiplier och worker knappar. Vi använde då deras namn från dictionariet. Vi använde det namnen för att skapa separata id för att göra css.
 
----
+jag gjorde sedan en ny sida för att testa göra ett nytt spel. Jag satt in en knapp och gjorde så att att värde som började på 1 dubblades varje gång jag klickade på knappen. Om värdet överstrider 1000 så leder knappen istället till en musik video.
 
-## Whatup
+```js 
+<script>
+    let alfons = 1
 
-**sick** dude
+</script>
+<button 
+    class="knapp1"
+    on:click={() => {
+        alfons = alfons* 2;
+        if (alfons > 1000){
+            window.open(
+                "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+        } 
+    }}
 
+>
+</button>
+
+<p>{alfons}</p>
+
+<style>
+    p {
+        color:brown;
+    }
+
+    .knapp1{
+        width: 20%;
+        height: 100px;
+        background-color: green;
+    }
+
+</style>   
+```

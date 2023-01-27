@@ -1,20 +1,9 @@
 ---
-title: Post One
-date: "2021-12-14"
+title: tisdag
+date: "2023-1-17"
 ---
 
-<script>
- let a = 0;
-</script>
+laddat ner koden från git.
 
-Hello, I am _Post One._
+ändrat bilderna till anton och wheyprotein
 
-**Nice to meet you!**
-
-**sick**
-
-😀 😃 😄 😁 😆 😅 😂
-
-<h1>{a}</h1>
-
-<button on:click={()=>{a = a + 1}}>CLICK ME</button>

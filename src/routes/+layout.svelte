@@ -17,6 +17,8 @@
   <ul>
     <li><a href="/">Hem</a></li>
     <li><a href="/devblog">Blog</a></li>
+    <li><a href="/erdettamoeligt">Klicker</a></li>
+    <li><a href="/etttilltest">testa</a></li>
   </ul>
 </nav>
 

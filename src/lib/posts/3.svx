@@ -1,18 +1,12 @@
 ---
-title: Post four
-date: "2021-12-14"
+title: Fredag
+date: "2023-1-20"
 ---
 
-<script>
- let a = 0;
-</script>
-
-Hello, I am _Post One._
-
-**Nice to meet tjena!**
-
-**sick**
-    
-<h1>{a}</h1>
-
-<button on:click={()=>{a = a + 1}}>CLICK ME</button>
+Jag har fixat bilderna på upgrades knapparna så att de går att justera separat. Förra lektionen gjorde jag så att det gick 
+att använda två olika bilder. Det gick däremot inte att justera dem separat. Detta löste jag och lisa genom att göra ett 
+id av namnet i dictionariet.
+```js
+<button
+    class="upgrade" id="{upgrade.name}" style="background-image:{upgrade.img};"
+```
